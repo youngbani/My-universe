@@ -1,0 +1,68 @@
+<!--작성자: 김영빈
+    수정 일자: 2022.6.29-7.4
+    만든 목적: 앱프로그래밍 과제2-->
+    <!--Home page-->
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" type = "text/css" href="HTML_youngbin.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet">
+        <title>Young Bin Kim</title>
+    </head>
+
+    <body>
+        <!--Javascript 추가-->
+        <script>
+            var userID = window.prompt("영빈이의 웹사이트를 보고 싶다면 다음을 따라 쓰십시오 : 영빈이는 이쁘다");
+    
+            if (userID == "영빈이는 이쁘다") alert ("입장을 허락합니다!");
+            else alert ("실망이네요!");
+        </script>
+        <!--변경사항2-->
+        <h3><span class ="c"> &nbsp YOUNGBIN</span></h3>
+        <!--menu-->
+        <div>
+            <ul>
+                <!--추가 변경: 시작페이지 index.html로 변경-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="my_webpage2.html">History</a></li>
+                <li><a href="my_webpage3.html">Hobby</a></li>
+                <li><a href="my_webpage4.html">Dream</a></li>
+            </ul>
+        </div>
+        
+        <!--menu 아래-->
+        <div style="padding-left:230px;">
+            <!--영어 소개-->
+            <!--변경사항1-->
+            <div id = "intro"> 
+                Hello! I am <span class = "highlight_pink">Young Bin</span>.<br>
+                I am <span class = "highlight_yellow">22 years old.</span><br>
+                My birthday is <span class = "highlight_green">February 12th</span>.<br>
+                I am a student in Handong Global<br> University
+                and I am majoring in <span class = "highlight_blue">ICT</span><br> and <span class = "highlight_purple">International Studies</span>.
+            </div>
+            <!--main picture-->
+            <div id = "main_pic">
+                <img src = "./image/YoungBin.jpg" alt ="Youngbin" usemap = "#Youngbin" width ="300" height = "400">
+            </div>
+            <!--한국어 소개-->
+            <!--변경사항1-->
+            <div id ="intro">
+                <!--변경사항3-->
+                안녕하세요! 저는 <span class = "highlight_pink">김영빈</span>이에요.<br>
+                저는 만으로 <span class = "highlight_yellow">22 살</span>이에요.<br>
+                제 생일은 <span class = "highlight_green">2월 12일</span>이에요.<br>
+                저는 한동대학교에 재학 중이고<br>
+                <span class = "highlight_blue">ICT</span>와 <span class = "highlight_purple">국제지역학</span>을 전공하고 있어요.
+            </div>
+            <br>
+        </div>
+        
+    </body>
+    </html>
